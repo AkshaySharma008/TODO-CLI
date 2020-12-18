@@ -1,6 +1,7 @@
 const fs = require("fs");
 const { execSync } = require("child_process");
 
+console.log(`${__dirname}`)
 let deleteFile = (path) => {
   try {
     fs.unlinkSync(path);
